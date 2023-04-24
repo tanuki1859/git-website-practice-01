@@ -1,3 +1,67 @@
-h1{
-    color: red;
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+        color: red;
+        margin: 0;
+        padding: 0;
+        font-size: 3.2rem;
+    }
+
+    ul{
+        display: flex;
+        margin: 0;
+        padding: 0;
+
+        li{
+            list-style: none;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+wrap{
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+
+    .slideArea{
+        width: 100%;
+
+        h2{
+            font-size: 2.4rem;
+            text-align: center;
+        }
+
+        ul{
+
+
+            li{
+
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 22.5rem;
+                }
+            }
+        }
+
+    }
+
+
+
+
+
 }

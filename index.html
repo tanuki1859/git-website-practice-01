@@ -5,12 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git練習用のサンプルサイト</title>
+    <link href="./common/css/style.css" rel="stylesheet" />
+    <link href="./common/js/slick/slick.css" rel="stylesheet" />
+    <link href="./common/js/slick/slick-theme.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="./common/js/slick/slick.js"></script>
 </head>
 <body>
+    <header>
+        <h1>git テスト</h1>
+        <ul>
+            <li>About</li>
+            <li>Works</li>
+            <li>Company</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+
+    <wrap>
+        <div class="slideArea">
+            <h2>製品紹介</h2>
+            <ul class="slick">
+                <li><img src="./common/img/pic_01.jpg" alt=""></li>
+                <li><img src="./common/img/pic_02.jpg" alt=""></li>
+                <li><img src="./common/img/pic_03.jpg" alt=""></li>
+                <li><img src="./common/img/pic_04.jpg" alt=""></li>
+            </ul>
+            <a href="#">もっと見る</a>
+        </div>
+
+        <div class="newsArea">
+            <h2>最新のニュース</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <a href="#">ニュース一覧</a>
+        </div>
+    </wrap>
+
+    <footer>フッター</footer>    
     
-
-
-
-    
+    <script defer>
+        $('.slick').slick();
+    </script>
 </body>
 </html>

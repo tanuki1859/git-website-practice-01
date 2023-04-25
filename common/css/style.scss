@@ -7,14 +7,19 @@ body{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     background: #ccc;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 3rem;
 
     h1{
-        color: red;
+        color: blue;
         margin: 0;
         padding: 0;
         font-size: 3.2rem;
@@ -28,8 +33,15 @@ header{
         li{
             list-style: none;
             font-size: 1.6rem;
+            margin: 0 1rem;
+
+            &:last-child{
+                margin-right: 0;
+            }
         }
     }
+
+
 }
 
 wrap{
@@ -38,6 +50,7 @@ wrap{
     margin: 0 auto;
 
     .slideArea{
+        text-align: center;
         width: 100%;
 
         h2{
@@ -58,10 +71,18 @@ wrap{
             }
         }
 
+        a{
+            font-size: 2.1rem;
+        }
+
     }
 
+    .slick-prev, .slick-next{
+        display: none;
+    }
 
-
-
+    .slick-dotted.slick-slider {
+        padding: 0;
+    }
 
 }

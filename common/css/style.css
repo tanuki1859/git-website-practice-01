@@ -12,6 +12,11 @@ h2 {
   font-size: 2.4rem;
   text-align: center;
 }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+}
 
 a {
   text-decoration: none;
@@ -19,8 +24,13 @@ a {
 }
 
 .more {
-  font-size: 2.1rem;
   color: blue;
+  font-size: 2.1rem;
+}
+@media (max-width: 768px) {
+  .more {
+    font-size: 1.6rem;
+  }
 }
 
 header {
@@ -30,10 +40,20 @@ header {
   align-items: center;
   padding: 1rem 3rem;
 }
+@media (max-width: 768px) {
+  header {
+    padding: 1rem 2rem;
+  }
+}
 header h1 {
   margin: 0;
   padding: 0;
   font-size: 3.2rem;
+}
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.1rem;
+  }
 }
 header ul {
   display: flex;
@@ -45,6 +65,12 @@ header ul li {
   font-weight: bold;
   font-size: 1.6rem;
   margin: 0 1rem;
+}
+@media (max-width: 768px) {
+  header ul li {
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+  }
 }
 header ul li:last-child {
   margin-right: 0;
@@ -86,8 +112,18 @@ wrap .newsArea ul li {
   list-style: none;
   font-size: 1.6rem;
 }
+@media (max-width: 768px) {
+  wrap .newsArea ul li {
+    font-size: 1.4rem;
+  }
+}
 wrap .newsArea ul li .date {
   margin-right: 2rem;
+}
+@media (max-width: 768px) {
+  wrap .newsArea ul li .date {
+    margin-right: 1rem;
+  }
 }
 
 footer {

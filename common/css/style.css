@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  color: #1a1a1a;
 }
 
 body {
@@ -7,8 +8,19 @@ body {
   padding: 0;
 }
 
+h2 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
+  color: #1a1a1a;
+}
+
+.more {
+  font-size: 2.1rem;
+  color: blue;
 }
 
 header {
@@ -19,7 +31,6 @@ header {
   padding: 1rem 3rem;
 }
 header h1 {
-  color: blue;
   margin: 0;
   padding: 0;
   font-size: 3.2rem;
@@ -31,6 +42,7 @@ header ul {
 }
 header ul li {
   list-style: none;
+  font-weight: bold;
   font-size: 1.6rem;
   margin: 0 1rem;
 }
@@ -46,10 +58,7 @@ wrap {
 wrap .slideArea {
   text-align: center;
   width: 100%;
-}
-wrap .slideArea h2 {
-  font-size: 2.4rem;
-  text-align: center;
+  margin-bottom: 80px;
 }
 wrap .slideArea ul li img {
   -o-object-fit: cover;
@@ -57,12 +66,34 @@ wrap .slideArea ul li img {
   width: 100%;
   height: 22.5rem;
 }
-wrap .slideArea a {
-  font-size: 2.1rem;
-}
 wrap .slick-prev, wrap .slick-next {
   display: none;
 }
 wrap .slick-dotted.slick-slider {
   padding: 0;
+}
+wrap .newsArea {
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+}
+wrap .newsArea h2 {
+  text-align: center;
+}
+wrap .newsArea ul li {
+  list-style: none;
+  font-size: 1.6rem;
+}
+wrap .newsArea ul li .date {
+  margin-right: 2rem;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  background: #ccc;
+  font-size: 1.4rem;
+  margin-top: 8rem;
 }/*# sourceMappingURL=style.css.map */

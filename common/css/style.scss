@@ -1,9 +1,8 @@
 $color-base: #1a1a1a;
 $color-base02: #ccc;
 $color-link: blue;
-$content-mb : 80px;
-
-
+$content-mb: 80px;
+$content-mb-sp: 40px;
 $sp: 768px;
 @mixin sp {
     @media (max-width: ($sp)) {
@@ -35,6 +34,18 @@ h2{
 a{
     text-decoration: none;
     color: $color-base;
+}
+
+img{
+    width: 100%;
+}
+
+.content-mb{
+    margin-bottom: $content-mb;
+
+    @include sp {
+        margin-bottom: $content-mb-sp;
+    };
 }
 
 .more{
@@ -91,6 +102,9 @@ header{
 
 }
 
+.mainVisual{
+}
+
 wrap{
     max-width: 1000px;
     display: block;
@@ -99,7 +113,6 @@ wrap{
     .slideArea{
         text-align: center;
         width: 100%;
-        margin-bottom: $content-mb;
 
 
 
@@ -156,6 +169,9 @@ wrap{
                     };
                 }
 
+                a{
+                    text-decoration: underline;
+                }
 
             }
 

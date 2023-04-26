@@ -23,6 +23,19 @@ a {
   color: #1a1a1a;
 }
 
+img {
+  width: 100%;
+}
+
+.content-mb {
+  margin-bottom: 80px;
+}
+@media (max-width: 768px) {
+  .content-mb {
+    margin-bottom: 40px;
+  }
+}
+
 .more {
   color: blue;
   font-size: 2.1rem;
@@ -84,7 +97,6 @@ wrap {
 wrap .slideArea {
   text-align: center;
   width: 100%;
-  margin-bottom: 80px;
 }
 wrap .slideArea ul li img {
   -o-object-fit: cover;
@@ -124,6 +136,9 @@ wrap .newsArea ul li .date {
   wrap .newsArea ul li .date {
     margin-right: 1rem;
   }
+}
+wrap .newsArea ul li a {
+  text-decoration: underline;
 }
 
 footer {
